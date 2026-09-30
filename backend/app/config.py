@@ -33,6 +33,7 @@ class EnclaveSecurityPolicy:
         }
 
 class DetectionThresholds(BaseModel):
+
     # Volumetric DDoS
     syn_flood_rate_threshold: float = 1200.0        # pkts/sec
     udp_flood_rate_threshold: float = 2000.0        # pkts/sec
